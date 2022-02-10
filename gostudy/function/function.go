@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+//func_name(para list)(return list)
 //体验下 go的 sb定义
 func test0(a int, m, n string) string {
 	fmt.Println(a)

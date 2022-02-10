@@ -1,5 +1,7 @@
-package main
+package gostudy
 
+// import path find
+// $GOROOT/src/fmt  ==> $GOPATH/src/fmt
 import (
 	"fmt"
 )
