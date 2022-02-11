@@ -1,4 +1,4 @@
-package gostudy
+package main
 
 // import path find
 // $GOROOT/src/fmt  ==> $GOPATH/src/fmt
@@ -23,6 +23,11 @@ func main() {
 			break
 		}
 
+	}
+	//for range,  type can map, string, array, slice
+	strs := []string{"aaa", "bbb", "ccc"}
+	for i, s := range strs {
+		fmt.Print(i, s) //i = 0 ,1,2
 	}
 	// if
 	if true {
