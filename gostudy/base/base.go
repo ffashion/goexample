@@ -24,10 +24,16 @@ func main() {
 		}
 
 	}
-	//for range,  type can map, string, array, slice
+	fmt.Print("\n")
+	//range for,  type can map, string, array, slice
 	strs := []string{"aaa", "bbb", "ccc"}
 	for i, s := range strs {
-		fmt.Print(i, s) //i = 0 ,1,2
+		fmt.Println(i, "->", s) //i = 0 ,1,2
+	}
+	fmt.Print("\n")
+	maps := map[string]string{"a": "apple", "b": "bad"}
+	for k, v := range maps {
+		fmt.Println(k, "->", v)
 	}
 	// if
 	if true {
