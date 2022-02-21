@@ -31,9 +31,15 @@ func main() {
 		fmt.Println(i, "->", s) //i = 0 ,1,2
 	}
 	fmt.Print("\n")
+	//range for :map
 	maps := map[string]string{"a": "apple", "b": "bad"}
 	for k, v := range maps {
 		fmt.Println(k, "->", v)
+	}
+	//for : while(1)
+	for {
+		fmt.Print("this is while(1)\n")
+		break
 	}
 	// if
 	if true {
